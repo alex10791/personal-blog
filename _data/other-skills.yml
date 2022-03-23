@@ -1,0 +1,7 @@
+- name: Backgammon
+  percentage: 70
+  color: info
+
+- name: Throwing dice
+  percentage: 3
+  color: success

@@ -1,0 +1,29 @@
+- title: Dark Ages
+  from: 2018
+  to: present
+  description: Started working...
+
+- title: Special Scientist
+  from: 2017
+  to: 2018
+  description: I started a PhD in Computer Architecture at the University of Cyprus working 
+               on different projects such as trying to wave the voltage margines of CPUs for
+               application specific executions and protecting the register renaming subsystem
+               of dynamically scheduled out of order cores. Unfortunately I did not finish
+               as I got a job opportunity and doing both was very difficult time wise. 
+               Maybe some day...
+              #  tl;dr Was doing changes to a cycle acutrate CPU simulator (sim-alpha) written in C and running experiments
+
+- title: MSc in Computer Science and Engineering (Security)
+  from: 2014
+  to: 2016
+  description: I studied Computer Science and Engineering with a Security studyline and a lot 
+               of hardware courses at DTU (Denmarks Technical University). My Thesis was
+               on a cross-core cache timing attack sidechannel against AES.
+
+- title: MEng in Electronic and Electrical Engineering
+  from: 2010
+  to: 2014
+  description: I studied Electronic and Electrical Engineering at the University of Leeds. 
+               My Thesis was on Surface Plasmon Polariton for Solar Cell energy generation.
+               Deriving equations, writing and running simulations, showing graphs. Usuall stuff.
