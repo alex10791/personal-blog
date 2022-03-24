@@ -2,7 +2,8 @@
 title               : alex.cy
 description         : >-
                       I usually don't encrypt my data, but when I do, I make sure its with base64. Also, I commit to master and let the customer do QA.
-baseurl             : "/personal-blog"                  # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+# baseurl             : "/personal-blog"                  # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+url                 : "https://alex.cy"
 repository          : alex10791/alex10791.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
