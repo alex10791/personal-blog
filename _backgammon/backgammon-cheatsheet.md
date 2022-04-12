@@ -13,6 +13,11 @@ Assuming no waste, about 8% pip count lead is a cube, 13.5% is the take point.
 * Need to clarify if the percent is referring to the pip difference vs my pips, or vs the opponents pips
 
 
+### Release Mid Point
+
+* When owning the 18 point you can release the 13 point
+
+
 ### When 2-away 2-away
 
 * Cube with any market losers even when behind in the score
