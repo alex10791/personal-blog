@@ -1,10 +1,16 @@
-## Attacking Python PRNG
+---
+title: Attacking Python PRNG
+tags: [prng, python]
+style: border
+color: primary
+description: Python PRNG seed recovery
+---
 
-### Inspiration
+## Inspiration
 
 I was asked to prepare some CTF challenges for [CCSC-2022](https://ccsc.org.cy/archive-2022/). I recently earned my blue belt in [pwn.college](https://pwn.college/) so they were expecting me to deliver some pwn exercises and I did. However, I always found PRNG seed recover attacks very facinating and I have only played around with Java and Android PRNGs, so I thought I'll do one now for Python.
 
-### Background
+## Background
 
 What is a PRNG?
 
@@ -14,7 +20,7 @@ The reason PRNGs are not actual RNGs is because they only seem to behave as RNGs
 
 Some times PRNGs do not even behave as RNGs at all (e.g. have some periodic behaviour).
 
-### Research
+## Research
 
 So I started digging a bit deeper into Python, and its PRNG implementation. One of the best resources I found was an [article](https://jazzy.id.au/2010/09/22/cracking_random_number_generators_part_3.html) by James Roper from back in 2010. He has a series of great articles regarding PRNG attacks. This was a great starting point.
 
@@ -23,7 +29,7 @@ So it turns out python (as well as some other languages) use Mersenne Twister PR
 The article was great in explaining how the attack should work, but was far from a complete implementation, and my understanding of the algorithm was still very poor. So I started looking into pythons random module implementation [here](https://github.com/python/cpython/blob/main/Modules/_randommodule.c).
 
 
-### Mersenne Twister PRNG algorithm
+## Mersenne Twister PRNG algorithm
 
 The python function of interest is shown below 
 
