@@ -24,7 +24,7 @@ The tournament results can be found [here](http://wmb-wrb-tour.bezma.net/?act=sh
 
 ## Other
 
-It was really nice getting to know Bernhard Mayr and meeting Michail Proukakis again after the [World Team Backgammon Championship in Venice 2022]({% link _backgammon/2022-04-12-wtbc-venice2022 %}).
+It was really nice getting to know Bernhard Mayr and meeting Michail Proukakis again after the [World Team Backgammon Championship in Venice 2022]({{ site.baseurl }}{% link _backgammon/2022-04-12-wtbc-venice2022.md %}).
 
 During my **Bye** I had a talk with Bernhard Mayr regarding the game and got a lot of hints. He suggested some good books I should read, he explained to me how colorless counting works, we talked a bit regarding early game cubes and some interesting positions.
 
