@@ -30,7 +30,7 @@ During my **Bye** I had a talk with Bernhard Mayr regarding the game and got a l
 
 ## Highlight
 
-The highlight of the event was my wife-to-be (at the time of writing) Pinelopi Constantinou, who won Thomas Tenland during the [World Team Backgammon Championship in Venice 2022]({% post_url 2022-04-12-wtbc-venice2022 %}). Someone must have informed the contestants about her win against the *Grand Master 1* and people wanted to know if it was her and even asked her about some positions.
+The highlight of the event was my wife-to-be (at the time of writing) Pinelopi Constantinou, who won Thomas Tenland during the [World Team Backgammon Championship in Venice 2022]({{ site.baseurl }}{% link _backgammon/2022-04-12-wtbc-venice2022.md %}). Someone must have informed the contestants about her win against the *Grand Master 1* and people wanted to know if it was her and even asked her about some positions.
 
 ## Photos
 
