@@ -1,5 +1,5 @@
 ---
-title: Ethernaut Preservation
+title: Ethernaut \#16 Preservation
 tags: [ethernaut]
 style: border
 color: primary

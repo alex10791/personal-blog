@@ -1,5 +1,5 @@
 ---
-title: Ethernaut Telephone
+title: Ethernaut \#04 Telephone
 tags: [ethernaut]
 style: border
 color: primary

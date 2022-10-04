@@ -1,5 +1,5 @@
 ---
-title: Ethernaut Alien Codex
+title: Ethernaut \#19 Alien Codex
 tags: [ethernaut]
 style: border
 color: primary

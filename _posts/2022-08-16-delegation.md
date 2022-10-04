@@ -1,5 +1,5 @@
 ---
-title: Ethernaut Delegation
+title: Ethernaut \#06 Delegation
 tags: [ethernaut]
 style: border
 color: primary

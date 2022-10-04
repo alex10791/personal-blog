@@ -1,12 +1,12 @@
 ---
-title: Ethernaut Gatekeeper One
+title: Ethernaut \#14 Gatekeeper Two
 tags: [ethernaut]
 style: border
 color: primary
-description: Ethernaut Gatekeeper One challenge writeup
+description: Ethernaut Gatekeeper Two challenge writeup
 ---
 
-## Gatekeeper One
+## Gatekeeper Two
 
 ### Challenge
 

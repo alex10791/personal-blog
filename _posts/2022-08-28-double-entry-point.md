@@ -1,5 +1,5 @@
 ---
-title: Ethernaut DoubleEntryPoint
+title: Ethernaut \#26 DoubleEntryPoint
 tags: [ethernaut]
 style: border
 color: primary

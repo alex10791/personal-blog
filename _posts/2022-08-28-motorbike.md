@@ -1,5 +1,5 @@
 ---
-title: Ethernaut Motorbike
+title: Ethernaut \#25 Motorbike
 tags: [ethernaut]
 style: border
 color: primary
