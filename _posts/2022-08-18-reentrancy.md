@@ -1,5 +1,5 @@
 ---
-title: Ethernaut #10 Re-entrancy
+title: "Ethernaut #10 Re-entrancy"
 tags: [ethernaut]
 style: border
 color: primary

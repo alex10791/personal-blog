@@ -1,5 +1,5 @@
 ---
-title: Ethernaut #15 Naught Coin
+title: "Ethernaut #15 Naught Coin"
 tags: [ethernaut]
 style: border
 color: primary

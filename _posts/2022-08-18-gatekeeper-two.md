@@ -1,5 +1,5 @@
 ---
-title: Ethernaut #14 Gatekeeper Two
+title: "Ethernaut #14 Gatekeeper Two"
 tags: [ethernaut]
 style: border
 color: primary

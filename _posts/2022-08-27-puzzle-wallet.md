@@ -1,5 +1,5 @@
 ---
-title: Ethernaut #24 Puzzle Wallet
+title: "Ethernaut #24 Puzzle Wallet"
 tags: [ethernaut]
 style: border
 color: primary
