@@ -1,8 +1,8 @@
 ---
 title: Floating Referenece Point Colorless Pip Count
 tags: [Backgammon, pip-counting]
-style: border
-color: primary
+style: fill
+color: warning
 description: An faster version of colorless pip count
 ---
 

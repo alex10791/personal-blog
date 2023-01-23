@@ -1,8 +1,8 @@
 ---
 title: Colorless Pip Count
 tags: [Backgammon, pip-counting]
-style: border
-color: primary
+style: fill
+color: warning
 description: A fast way to pip count
 ---
 
