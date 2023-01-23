@@ -11,7 +11,7 @@ description: A fast way to pip count
 
 Colorless pip count is a very fast way to count the race difference. It seems confusing at first, but once we understand why it works its actually very simple.
 
-The idea behind colorless pip counting is that we can just count the difference in the race of the closest 15 checkers to be boren off on each side and that is equivalent to the race difference no matter what the color of each checker is.
+The idea behind colorless pip counting is that we can just count the difference in the race of the closest 15 checkers to be borne off on each side and that is equivalent to the race difference no matter what the color of each checker is.
 
 This might sound confusing at first so lets look at an example.
 
@@ -245,7 +245,7 @@ This technique has two added benefits over other relative pip counting technique
 
 First of all, the numbers we add are usually much smaller since its unusual to end up having checkers further than our opponents out field, and even when we do its very few and the pip count might not be very relevant. 
 
-The second benefit, is that we can exploit symetries to a greater extend. The reason is that usually, in order to ignore checkers when doing a relarive pip count, we had to make sure that the checkers on the opposite site (opponents equivalent point) had our opponents checkers on it, not ours.
+The second benefit, is that we can exploit symmetries to a greater extend. The reason is that usually, in order to ignore checkers when doing a relative pip count, we had to make sure that the checkers on the opposite site (opponents equivalent point) had our opponents checkers on it, not ours.
 
 Consider the following board configuration.
 
@@ -303,7 +303,7 @@ Consider the following board configuration.
     </tr>
 </table>
 
-Using simple symmetry without the colorless thechnique, we can ignore the checkers on blues 2 and 23, 3 and 22, 4 and 21, 6 and 19 since they cancel out. So now we are left with counting the remaining 14 checkers. Now lets have a look at the coloreless technique.
+Using simple symmetry without the colorless technique, we can ignore the checkers on blues 2 and 23, 3 and 22, 4 and 21, 6 and 19 since they cancel out. So now we are left with counting the remaining 14 checkers. Now lets have a look at the colorless technique.
 
 <table>
     <tr>
@@ -359,4 +359,4 @@ Using simple symmetry without the colorless thechnique, we can ignore the checke
     </tr>
 </table>
 
-Since we are allowed to swap checkers and maitain the relative pip count we see that now we can elliminate more checkers and hence exploit the symmetry even further. In this case, we can ignore all but 6 checkers, and we can also quickly see that the remaining 3 checkers of each player are on consecutive opposite points, so the difference is 3 pips.
+Since we are allowed to swap checkers and maintain the relative pip count we see that now we can eliminate more checkers and hence exploit the symmetry even further. In this case, we can ignore all but 6 checkers, and we can also quickly see that the remaining 3 checkers of each player are on consecutive opposite points, so the difference is 3 pips.
