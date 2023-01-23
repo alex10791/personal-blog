@@ -27,55 +27,55 @@ The third and most significant benefit thought, is that we introduce another sym
 
 <table>
     <tr>
-        <th style="width:266px;text-align:left;">White</th>
-        <th style="width:25px;text-align:right;">157</th>
+        <th style="background-color:white;color:black;width:266px;text-align:left;">White</th>
+        <th style="background-color:white;color:black;width:25px;text-align:right;">157</th>
     </tr>
     <tr>
         <td colspan="2">
             <p style="margin:0;padding:0;width:291px;height:18px;"><img alt=""
-                    src="https://apbg.net/board_images/n_high.png" style="width:291px;height:18px;" /></p>
+                    src="https://apbg.net/board_images/n_high.png" style="margin:0;display:inline;width:291px;height:18px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:66px;"><img alt=""
-                    src="https://apbg.net/board_images/o_w_0.png" style="width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_ud_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_ud_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_w_2.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_ud_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_w_4.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/b_up_0.png" style="width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_ud_b_2.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_w_2.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_ud_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_ud_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_b_5.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/c_up_0.png" style="width:25px;height:66px;" /></p>
+                    src="https://apbg.net/board_images/o_w_0.png" style="margin:0;display:inline;width:25px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_ud_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_ud_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_w_2.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_ud_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_w_4.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/b_up_0.png" style="margin:0;display:inline;width:25px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_ud_b_2.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_w_2.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_ud_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_ud_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_b_5.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/c_up_0.png" style="margin:0;display:inline;width:25px;height:66px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:20px;"><img alt=""
-                    src="https://apbg.net/board_images/b_center.png" style="width:267px;height:20px;" /><img alt=""
-                    src="https://apbg.net/board_images/c_ce_1.png" style="width:24px;height:20px;" /></p>
+                    src="https://apbg.net/board_images/b_center.png" style="margin:0;display:inline;width:267px;height:20px;" /><img alt=""
+                    src="https://apbg.net/board_images/c_ce_1.png" style="margin:0;display:inline;width:24px;height:20px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:66px;"><img alt=""
-                    src="https://apbg.net/board_images/o_b_0.png" style="width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dn_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dd_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dn_w_2.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dd_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dn_b_2.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dd_b_4.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/b_dn_0.png" style="width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dn_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dd_b_2.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dn_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dd_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dn_0.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dd_w_5.png" style="width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/c_dn_0.png" style="width:25px;height:66px;" /></p>
+                    src="https://apbg.net/board_images/o_b_0.png" style="margin:0;display:inline;width:25px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dn_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dd_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dn_w_2.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dd_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dn_b_2.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dd_b_4.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/b_dn_0.png" style="margin:0;display:inline;width:25px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dn_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dd_b_2.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dn_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dd_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dn_0.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dd_w_5.png" style="margin:0;display:inline;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/c_dn_0.png" style="margin:0;display:inline;width:25px;height:66px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:18px;"><img alt=""
-                    src="https://apbg.net/board_images/n_low.png" style="width:291px;height:18px;" /></p>
+                    src="https://apbg.net/board_images/n_low.png" style="margin:0;display:inline;width:291px;height:18px;" /></p>
         </td>
     </tr>
     <tr>
-        <th style="width:266px;text-align:left;">Blue</th>
-        <th style="width:25px;text-align:right;">151</th>
+        <th style="background-color:white;color:black;width:266px;text-align:left;">Blue</th>
+        <th style="background-color:white;color:black;width:25px;text-align:right;">151</th>
     </tr>
 </table>
 
