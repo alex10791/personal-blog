@@ -320,7 +320,7 @@ A maybe slightly less obvious symmetry here is the 14 and 24 points, both are 5 
 <table>
     <tr>
         <td style="width:266px;text-align:left;">White</td>
-        <td style="width:25px;text-align:right;">37</td>
+        <td style="width:25px;text-align:right;">39</td>
     </tr>
     <tr>
         <td colspan="2">
@@ -328,9 +328,9 @@ A maybe slightly less obvious symmetry here is the 14 and 24 points, both are 5 
                     src="https://apbg.net/board_images/n_high.png" style="all:unset;width:291px;height:18px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:66px;"><img alt=""
                     src="https://apbg.net/board_images/o_w_11.png" style="all:unset;width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_ud_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_ud_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
@@ -376,7 +376,7 @@ Now we have one vertical symmetry on both players 12 point. So we end up with th
 <table>
     <tr>
         <td style="width:266px;text-align:left;">White</td>
-        <td style="width:25px;text-align:right;">1</td>
+        <td style="width:25px;text-align:right;">3</td>
     </tr>
     <tr>
         <td colspan="2">
@@ -384,9 +384,9 @@ Now we have one vertical symmetry on both players 12 point. So we end up with th
                     src="https://apbg.net/board_images/n_high.png" style="all:unset;width:291px;height:18px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:66px;"><img alt=""
                     src="https://apbg.net/board_images/o_w_14.png" style="all:unset;width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_ud_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_ud_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
@@ -427,16 +427,16 @@ Now we have one vertical symmetry on both players 12 point. So we end up with th
     </tr>
 </table>
 
-Finally we see that blue needs to move one pip forward to mirror whites position, so blue is trailing by one pip! Take note here that the reason blue is trailing by 1 pip is **not** because it needs one more pip to get to be borne off, but because it needs -5 to reach its 6-point while white needs -6 to reach its 6-point. This will be clear in the next example.
+Finally we see that blue needs to move one pip towards the reference point to mirror whites position, so blue is leading by one pip! Take note here that the reason blue is leading by 1 pip is **not** because it needs one less pip than white to get borne off but because it needs -4 pips to reach its 6-point while white needs -3 pips to reach its 6-point, so blue has a lower pip count by 1. This will be clear in the next example.
 
-What we observed here is the exploitation of two different symmetries, one for same colored checkers (horizontal) and one for different colored checkers (vertical), in combination with the colorless technique that tends to cause clusters and benefiting both types of the symmetries. An added benefit is that all numbers are now up usually up to 7 pips away from the floating reference point.
+What we observed here is the exploitation of two different symmetries, one for same colored checkers (horizontal) and one for different colored checkers (vertical), in combination with the colorless technique that tends to cause clusters and benefiting both types of the symmetries. An added benefit is that all numbers are now usually up to 7 pips away from the floating reference point.
 
 ### Floating reference point selection
 
 <table>
     <tr>
         <td style="width:266px;text-align:left;">White</td>
-        <td style="width:25px;text-align:right;">156</td>
+        <td style="width:25px;text-align:right;">155</td>
     </tr>
     <tr>
         <td colspan="2">
@@ -444,8 +444,8 @@ What we observed here is the exploitation of two different symmetries, one for s
                     src="https://apbg.net/board_images/n_high.png" style="all:unset;width:291px;height:18px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:66px;"><img alt=""
                     src="https://apbg.net/board_images/o_w_0.png" style="all:unset;width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_ud_b_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_b_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
@@ -463,8 +463,8 @@ What we observed here is the exploitation of two different symmetries, one for s
                     src="https://apbg.net/board_images/c_ce_1.png" style="all:unset;width:24px;height:20px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:66px;"><img alt=""
                     src="https://apbg.net/board_images/o_b_0.png" style="all:unset;width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dn_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dd_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dn_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dd_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dn_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dd_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dn_b_2.png" style="all:unset;width:18px;height:66px;" /><img alt=""
@@ -483,7 +483,7 @@ What we observed here is the exploitation of two different symmetries, one for s
     </tr>
     <tr>
         <td style="width:266px;text-align:left;">Blue</td>
-        <td style="width:25px;text-align:right;">126</td>
+        <td style="width:25px;text-align:right;">125</td>
     </tr>
 </table>
 
@@ -492,7 +492,7 @@ Now there is no nice vertical symmetry on the board or horizontal symmetry aroun
 <table>
     <tr>
         <td style="width:266px;text-align:left;">White</td>
-        <td style="width:25px;text-align:right;">126</td>
+        <td style="width:25px;text-align:right;">127</td>
     </tr>
     <tr>
         <td colspan="2">
@@ -500,8 +500,8 @@ Now there is no nice vertical symmetry on the board or horizontal symmetry aroun
                     src="https://apbg.net/board_images/n_high.png" style="all:unset;width:291px;height:18px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:66px;"><img alt=""
                     src="https://apbg.net/board_images/o_w_0.png" style="all:unset;width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_ud_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
@@ -519,8 +519,8 @@ Now there is no nice vertical symmetry on the board or horizontal symmetry aroun
                     src="https://apbg.net/board_images/c_ce_1.png" style="all:unset;width:24px;height:20px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:66px;"><img alt=""
                     src="https://apbg.net/board_images/o_b_0.png" style="all:unset;width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dn_b_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dd_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dn_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dd_b_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dn_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dd_b_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dn_b_2.png" style="all:unset;width:18px;height:66px;" /><img alt=""
@@ -539,7 +539,7 @@ Now there is no nice vertical symmetry on the board or horizontal symmetry aroun
     </tr>
     <tr>
         <td style="width:266px;text-align:left;">Blue</td>
-        <td style="width:25px;text-align:right;">96</td>
+        <td style="width:25px;text-align:right;">97</td>
     </tr>
 </table>
 
@@ -548,16 +548,16 @@ Now lets apply horizontal point elimination around the 7-point for both players.
 <table>
     <tr>
         <td style="width:266px;text-align:left;">White</td>
-        <td style="width:25px;text-align:right;">55</td>
+        <td style="width:25px;text-align:right;">71</td>
     </tr>
     <tr>
         <td colspan="2">
             <p style="margin:0;padding:0;width:291px;height:18px;"><img alt=""
                     src="https://apbg.net/board_images/n_high.png" style="all:unset;width:291px;height:18px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:66px;"><img alt=""
-                    src="https://apbg.net/board_images/o_w_10.png" style="all:unset;width:25px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/o_w_8.png" style="all:unset;width:25px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_up_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_up_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_ud_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
@@ -575,8 +575,8 @@ Now lets apply horizontal point elimination around the 7-point for both players.
                     src="https://apbg.net/board_images/c_ce_1.png" style="all:unset;width:24px;height:20px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:66px;"><img alt=""
                     src="https://apbg.net/board_images/o_b_13.png" style="all:unset;width:25px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dn_b_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dd_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dn_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dd_b_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dn_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dd_b_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dn_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
@@ -586,7 +586,7 @@ Now lets apply horizontal point elimination around the 7-point for both players.
                     src="https://apbg.net/board_images/p_dd_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dn_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dd_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
-                    src="https://apbg.net/board_images/p_dn_0.png" style="all:unset;width:18px;height:66px;" /><img alt=""
+                    src="https://apbg.net/board_images/p_dn_w_1.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/p_dd_w_2.png" style="all:unset;width:18px;height:66px;" /><img alt=""
                     src="https://apbg.net/board_images/c_dn_0.png" style="all:unset;width:25px;height:66px;" /></p>
             <p style="margin:0;padding:0;width:291px;height:18px;"><img alt=""
@@ -595,7 +595,7 @@ Now lets apply horizontal point elimination around the 7-point for both players.
     </tr>
     <tr>
         <td style="width:266px;text-align:left;">Blue</td>
-        <td style="width:25px;text-align:right;">5</td>
+        <td style="width:25px;text-align:right;">6</td>
     </tr>
 </table>
 
