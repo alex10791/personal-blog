@@ -9,9 +9,9 @@ description: An faster version of colorless pip count
 
 ## Background
 
-Floating reference point colorless pip count, uses a second symmetry on the board to eliminate even more checkers during pip counting. 
+Floating reference point colorless pip count, uses a second symmetry on the board to eliminate even more checkers during pip counting.
 
-Usually, when performing any kind of relative pip count, we can ignore checkers of opposite color that are on the same point but opposite site of the board. This is a symmetry that can be exploited to reduce the number of checkers that we need to count. Colorless pip counting is no exception. In reality, colorless pip count is not colorless, but instead colors are remapped in a way that preserve the race difference. So similar to any relative pip count, this symmetry can be exploited in colorless pip counting as well. We will refer to this symmetry as vertical symmetry. This article introduces another symmetry that can be used to eliminate even more checkers and will be referred to as horizontal symmetry.
+Usually, when performing any kind of relative pip count, we can ignore checkers of opposite color that are on the same point but opposite site of the board. This is a symmetry that can be exploited to reduce the number of checkers that we need to count. Colorless pip counting is no exception. In reality, colorless pip count is not colorless, but instead colors are remapped in a way that preserve the race difference. So similar to any relative pip count, this symmetry can be exploited in colorless pip counting as well. We will refer to this symmetry as horizontal symmetry. This article introduces another symmetry that can be used to eliminate even more checkers and will be referred to as vertical or anchor symmetry.
 
 In order to understand relative colorless pip count, one needs to understand how colorless pip counting works, so if you are not familiar, or need a quick refresher take a look at [this]({{ site.baseurl }}{% link _backgammon/2023-01-21-colorless-pip-counting.md %}) article.
 
@@ -81,9 +81,9 @@ The third and most significant benefit thought, is that we introduce another sym
 
 Lets take a look at this position.
 
-Using the method described above and picking the 13 point as the reference point, we can eliminate all checkers on the 13 point for both players immediately. Then we can eliminate the blue checkers on points 8 and 18 as they are both 5 pips away from the 13 point, and both have two checkers on them. We can also ignore the white checkers on points 3 and 20 as they are both 8 pips away from the 12 point (whites 13 point). So all we are left with to count are the checkers on blues 5 and whites 8 point. So we immediately see that this is 3 pips per checkers, so 6 pips.
+Using the method described above and picking the 13 point as the reference point, we can eliminate all checkers on the 13 point for both players immediately. Then we can eliminate the blue checkers on points 8 and 18 as they are both 5 pips away from the 13 point in each direction, and both have two checkers on them. We can also ignore the white checkers on points 3 and 21 as they are both 9 pips away from the 12 point (whites 13 point) in each direction, and both have two checkers on them. Finally we can ignore the checkers on both players 6-point since they are horizontally symmetric. So all we are left with to count are the checkers on blues 5 and whites 8 point. We can mentally adjust for horizontal symmetry, that is 3 pips per checkers for a total of 6 pips.
 
-The floating reference point pip count is a very powerful method by its self as it allows us to exploit a new type of symmetry which we call horizontal symmetry. The reason is that it allows us to exploit symmetries, not only in opposite player checkers, but also on same player checkers.
+The floating reference point pip count is a very powerful method by its self as it allows us to exploit a new type of symmetry which we call vertical symmetry. The reason is that it allows us to exploit symmetries, not only in opposite player checkers, but also on same player checkers.
 
 ## Extending colorless pip counting
 
@@ -371,7 +371,7 @@ A maybe slightly less obvious symmetry here is the 14 and 24 points, both are 5 
     </tr>
 </table>
 
-Now we have one vertical symmetry on both players 12 point. So we end up with the following position
+Now we have one horizontal symmetry on both players 12 point. So we end up with the following position
 
 <table>
     <tr>
@@ -429,7 +429,7 @@ Now we have one vertical symmetry on both players 12 point. So we end up with th
 
 Finally we see that blue needs to move one pip towards the reference point to mirror whites position, so blue is leading by one pip! Take note here that the reason blue is leading by 1 pip is **not** because it needs one less pip than white to get borne off but because it needs -4 pips to reach its 6-point while white needs -3 pips to reach its 6-point, so blue has a lower pip count by 1. This will be clear in the next example.
 
-What we observed here is the exploitation of two different symmetries, one for same colored checkers (horizontal) and one for different colored checkers (vertical), in combination with the colorless technique that tends to cause clusters and benefiting both types of the symmetries. An added benefit is that all numbers are now usually up to 7 pips away from the floating reference point.
+What we observed here is the exploitation of two different symmetries, one for same colored checkers (vertical) and one for different colored checkers (horizontal), in combination with the colorless technique that tends to cause clusters and benefiting both types of the symmetries. An added benefit is that all numbers are now usually up to 7 pips away from the floating reference point.
 
 ### Floating reference point selection
 
@@ -487,7 +487,7 @@ What we observed here is the exploitation of two different symmetries, one for s
     </tr>
 </table>
 
-Now there is no nice vertical symmetry on the board or horizontal symmetry around the 6-point, however there is a beautiful horizontal symmetry around the 7-point so we can just use that. Lets start by separating the colors.
+Now there is no nice horizontal symmetry on the board or vertical symmetry around the 6-point, however there is a beautiful vertical symmetry around the 7-point so we can just use that. Lets start by separating the colors.
 
 <table>
     <tr>
@@ -543,7 +543,7 @@ Now there is no nice vertical symmetry on the board or horizontal symmetry aroun
     </tr>
 </table>
 
-Now lets apply horizontal point elimination around the 7-point for both players.
+Now lets apply vertical point elimination around the 7-point for both players.
 
 <table>
     <tr>
@@ -599,7 +599,7 @@ Now lets apply horizontal point elimination around the 7-point for both players.
     </tr>
 </table>
 
-Now lets also apply vertical checker elimination.
+Now lets also apply horizontal checker elimination.
 
 <table>
     <tr>
@@ -773,7 +773,7 @@ In this case we can use the "6.5" point (**NOT THE BAR**) as a floating referenc
     </tr>
 </table>
 
-And then also eliminate the vertical symmetry
+And then also eliminate the horizontal symmetry
 
 <table>
     <tr>
@@ -834,3 +834,8 @@ Now we just need to count the pip difference and keep in mind the half point off
 Some examples would be to pair checkers in two and account for their half pip as a pair or count two pips for each pip until before the half point and then add one and at the end divide by two. But such techniques are left for the reader to come up with.
 
 In this case, white needs 22 pips to reach the floating reference point, so blue is leading 22 pips.
+
+
+## Acknowledgements
+
+Special thanks to Bernhard Mayr for taking the time to proofread and give feedback on this article.
